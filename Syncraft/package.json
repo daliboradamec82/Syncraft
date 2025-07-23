@@ -1,0 +1,27 @@
+{
+    "name": "apify-backend-challenge",
+    "version": "0.0.1",
+    "private": true,
+    "description": "Take-home assignment for backend developer candidates at Apify",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/apify/apify-backend-challenge.git"
+    },
+    "author": "Apify team",
+    "license": "ISC",
+    "dependencies": {
+        "ioredis": "^4.28.2",
+        "mongodb": "^4.2.1"
+    },
+    "devDependencies": {
+        "@types/jest": "^27.0.3",
+        "jest": "^27.4.4",
+        "ts-jest": "^27.1.1",
+        "ts-node": "^10.4.0",
+        "typescript": "^4.5.3"
+    }
+}

@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  mongodb:
+    container_name: apify-backend-challenge-mongodb
+    image: mongo:5.0
+    ports:
+      - 27017:27017
+
+  redis:
+    container_name: apify-backend-challenge-redis
+    image: redis:6.2
+    ports:
+      - 6379:6379

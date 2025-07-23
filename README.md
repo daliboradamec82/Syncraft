@@ -1,4 +1,5 @@
-🔧 Syncraft Backend Challenge: Buffered Mongo Increments
+Syncraft Backend Challenge: Buffered Mongo Increments
+
 Context
 At Syncraft, we use MongoDB as our primary database to store metadata about users, their actors, runs, scraped data, and more. A typical user document might contain fields like:
 
